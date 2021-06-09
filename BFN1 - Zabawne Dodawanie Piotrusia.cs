@@ -19,7 +19,6 @@ namespace BFN1_spoj
             int result = x;
             string textResult = "";
 
-
             do
             {
                 if (result == Reverse(result.ToString()))
@@ -39,7 +38,6 @@ namespace BFN1_spoj
             } while (result !=Reverse(result.ToString()));
                
             return textResult;
-            
             
         }
       static  int Reverse(string str)
