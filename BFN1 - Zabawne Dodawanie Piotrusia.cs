@@ -31,21 +31,13 @@ namespace BFN1_spoj
                 else
                 {
 
-                    
                         result = result + Reverse(result.ToString());
                         counter++;
                     textResult = result + " " + counter.ToString();
-
-
-
-
                 }
                
             } while (result !=Reverse(result.ToString()));
                
-            
-          
-
             return textResult;
             
             
