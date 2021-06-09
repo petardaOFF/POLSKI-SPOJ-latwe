@@ -12,12 +12,8 @@ namespace ConsoleApp1
             int D = int.Parse(Console.ReadLine());
             for (int i = 0; i < D; i++)
             {
-
-              
-                
+     
               Console.WriteLine(ResultMethod(Console.ReadLine()));
-
-
             }
          
         }
