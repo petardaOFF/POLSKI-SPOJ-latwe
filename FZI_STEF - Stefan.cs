@@ -16,7 +16,7 @@ namespace FZI_STEF___Stefan
                 {
                     w += x;
                 }
-                else
+                else                //okzalo sie ze nie mozna odsylac w C# ale działa? działa
                 {
                     w = x;
                 }
