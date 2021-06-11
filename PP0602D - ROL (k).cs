@@ -9,8 +9,6 @@ namespace ROL_k_
         static void Main(string[] args)
         {
             Console.WriteLine(Magic(Console.ReadLine().Split(' '), Console.ReadLine().Split(' ')));
-
-
         }
 
        static string Magic(string[] howMuch, string[] numbers)
@@ -28,13 +26,9 @@ namespace ROL_k_
             }
             foreach (var item in myQueue)
             {
-
-                result += item + " ";
+            result += item + " ";
 
             }
-
-
-
 
             return result;
         }
